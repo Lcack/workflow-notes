@@ -1,2 +1,14 @@
 # workflow-notes
-主要用于记录搭建工作流的过程
+    主要用于记录搭建工作流的过程
+
+Hardware:
+    台式电脑（Windows10）
+    笔记本电脑（Ubuntu24.04 LTS）
+    笔记本电脑（Windows11）
+    超算集群（Linux）
+
+以下是仓库具体架构：
+    Notes：包括zotero和obsidian的多端同步和工作记录
+    Projects：包括科研用的环境的编译和开发
+    Setup：环境配置相关
+    Dotfiles：配置文件
