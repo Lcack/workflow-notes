@@ -15,7 +15,7 @@
 * Dotfiles：配置文件
 
 
-##TODO:
+## TODO:
 - [x] 写完坚果云同步部分
 - [ ] 写完坚果云插件部分（起码是我会的部分）
 - [ ] 写Setup-Cross devices部分
