@@ -44,7 +44,7 @@ Zotero的附件同步需要在**顶部菜单栏-edit-setting**里，选择**同�
 
 ![Zotero蒲公英插件](./.img/1蒲公英.png "顶部菜单栏-工具-蒲公英")
 
-在完成备份之后，备份文件会在**zotero/storage**文件夹内，并随着坚果云实现多端同步。
+在完成备份之后，备份文件会在**zotero/storage**文件夹内，并随着坚果云实现多端同步备份文件，在其他端找到备份文件进行导入即可实现多端同步插件、格式、转换器。
 
 ~~## Zotero插件同步（手动）~~ 手动同步方法现不推荐
 本文采用的Zotero插件管理是通过[Zotero 插件市场](https://github.com/syt2/zotero-addons/releases/download/V2.1.1/zotero-addons.xpi)这一插件进行安装管理，同时也利用这一插件进行插件同步。
