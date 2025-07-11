@@ -2,7 +2,7 @@
 Zotero生态下有许多功能丰富的插件，本文主要介绍在Zotero7下使用的一些插件。
 
 ## 本人使用的插件与写作记录进度，附带Github连接：
-- [ ] [蒲公英](https://github.com/l0o0/tara/releases/download/v1.0.7/tara.xpi)
+- [x] [蒲公英](https://github.com/l0o0/tara/releases/download/v1.0.7/tara.xpi)
 - [ ] [Actions and Tags for Zotero](https://github.com/windingwind/zotero-actions-tags/releases/download/v2.1.1/actions-and-tags-for-zotero.xpi)
 - [ ] [Awesome GPT](https://gitee.com/MuiseDestiny/plugins/raw/master/zotero-gpt.xpi)
 - [ ] [Better BibTex for Zotero](https://github.com/retorquere/zotero-better-bibtex/releases/download/v7.0.36/zotero-better-bibtex-7.0.36.xpi)
@@ -42,3 +42,15 @@ Zotero生态下有许多功能丰富的插件，本文主要介绍在Zotero7下�
 
 
 ## [蒲公英](https://github.com/l0o0/tara/releases/download/v1.0.7/tara.xpi)
+蒲公英插件是一款实现备份Zotero插件、CSL文件、转换器文件、Locate文件夹和Zotero配置的插件。
+
+### 使用方法
+在导入完成蒲公英插件后，在Zotero的**顶部菜单栏-工具-蒲公英**可以对目前Zotero的插件、格式、转换器进行创建备份、导入导出备份与恢复备份。
+
+![Zotero蒲公英插件](./.img/1蒲公英.png "顶部菜单栏-工具-蒲公英")
+
+在完成备份之后，备份文件会在**zotero/storage**文件夹内，并随着坚果云实现多端同步备份文件，在其他端找到备份文件进行导入即可实现多端同步插件、格式、转换器。
+
+
+## [坚果云插件](https://github.com/nutstore/zotero-plugin-nutstore/releases/download/v2.0.2/nutstore.xpi)
+坚果云插件
