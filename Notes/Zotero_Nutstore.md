@@ -40,3 +40,7 @@ Zotero的附件同步需要在**顶部菜单栏-edit-setting**里，选择**同�
 ![Zotero顶部菜单栏-插件市场](./.img/1topMenu.png "顶部菜单栏-工具-插件市场")
 ![Zotero插件市场](./.img/1market.png "右键-管理本地插件")
 
+通过坚果云将extension文件夹多端同步后，在Zotero的**顶部菜单栏-工具-plugins**中，在右上角**设置-Install Plugin from files**导入extension文件夹内的插件。
+
+![Zotero顶部菜单栏-插件](./.img/1plugins.png "顶部菜单栏-工具-plugins")
+![Zotero插件设置](./.img/1pluginManager.png "设置-Install Plugin from files")
