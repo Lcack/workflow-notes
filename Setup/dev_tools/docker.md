@@ -84,4 +84,21 @@ ps：docker engine的安装方法又有很多：Docker Desktop（最推荐也是
    
    最后则是提一嘴，Docker Desktop默认安装在 :
    >/opt/docker-desktop
-4. **安装Docker Desktop中文包**，
+4. **安装Docker Desktop中文包（可选）**，Docker Desktop的中文包可以在Github上面[下载]()，根据对应的版本选择需要的.asar包进行下载，下载完成后首先将原始的app.asar进行一个备份：   
+   ```
+   cd /opt/docker-desktop/resources
+   sudo mv app.asar app.asar.bak
+   ```
+   接下来将下载好的包拷贝到docker的文件夹（需要sudo权限）：
+   ```
+   sudo cp ~/Downloads/app-Debian-x86.asar /opt/docker-desktop/resources/
+   ```
+
+# 3. Docker Desktop的使用
+Docker的正常使用会放在后续使用Docker时介绍，如ROMS、AstrBot等项目中。  
+这里主要是介绍docker在Linux上登录需要的操作，登录docker能连接到github上，还能提高拉取速率和使用多种功能。  
+
+1. **生成GPG登陆密钥**
+   ```
+   gpg --generate-key
+   ```
