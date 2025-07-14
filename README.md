@@ -18,3 +18,5 @@
 - [ ] 写完坚果云插件部分（起码是我会的部分）
 - [ ] 写Setup-Cross devices部分
 - [ ] 写Clash部分
+- [x] 写docker desktop部分
+- [ ] 边做AstrBot边写 *（working on）*
