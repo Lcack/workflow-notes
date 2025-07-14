@@ -7,13 +7,11 @@
 * 笔记本电脑（Windows11）
 * 超算集群（Linux）
 
-
 ## 仓库具体架构：
 * Notes：包括zotero和obsidian的多端同步和工作记录
 * Projects：包括科研用的环境的编译和开发
 * Setup：环境配置相关
 * Dotfiles：配置文件
-
 
 ## TODO:
 - [x] 写完坚果云同步部分

@@ -25,33 +25,39 @@ Zotero生态下有许多功能丰富的插件，本文主要介绍在Zotero7下�
 - [ ] [Zotero OCR](https://github.com/UB-Mannheim/zotero-ocr/releases/download/0.9.2/zotero-ocr-0.9.2.xpi)
 - [ ] [ZotMoov](https://github.com/wileyyugioh/zotmoov/releases/download/1.2.21/zotmoov-1.2.21-fx.xpi)
 
-### 1.1.1. 导入插件的方法
-1.通过[Zotero社区插件市场](https://zotero-chinese.com/plugins/)下载插件
+## 1.2. 导入插件的方法
+### 1.2.1. 通过[Zotero社区插件市场](https://zotero-chinese.com/plugins/)下载插件  
+通过[Zotero社区插件市场](https://zotero-chinese.com/plugins/)下载得到插件后，在Zotero的**顶部菜单栏-工具-plugins**中，在右上角**设置-Install Plugin from files**导入插件。  
 
-通过[Zotero社区插件市场](https://zotero-chinese.com/plugins/)下载得到插件后，在Zotero的**顶部菜单栏-工具-plugins**中，在右上角**设置-Install Plugin from files**导入插件。
-
-![Zotero顶部菜单栏-插件](./.img/1plugins.png "顶部菜单栏-工具-plugins")
+![Zotero顶部菜单栏-插件](./.img/1plugins.png "顶部菜单栏-工具-plugins")  
 ![Zotero插件设置](./.img/1pluginManager.png "设置-Install Plugin from files")
 
-2.通过[Zotero 市场插件](https://github.com/syt2/zotero-addons/releases/download/V2.1.1/zotero-addons.xpi)下载管理插件（推荐）
+### 1.2.2. 通过[Zotero 市场插件](https://github.com/syt2/zotero-addons/releases/download/V2.1.1/zotero-addons.xpi)下载管理插件（推荐）
+可以先在[Zotero社区插件市场](https://zotero-chinese.com/plugins/)下载[Zotero 市场插件](https://github.com/syt2/zotero-addons/releases/download/V2.1.1/zotero-addons.xpi)。通过上面的方法安装好市场插件后，便可以利用此插件进行下载管理插件.  
 
-可以先在[Zotero社区插件市场](https://zotero-chinese.com/plugins/)下载[Zotero 市场插件](https://github.com/syt2/zotero-addons/releases/download/V2.1.1/zotero-addons.xpi)。通过上面的方法安装好市场插件后，便可以利用此插件进行下载管理插件.
-
-![Zotero顶部菜单栏-插件市场](./.img/1topMenu.png "顶部菜单栏-工具-插件市场")
+![Zotero顶部菜单栏-插件市场](./.img/1topMenu.png "顶部菜单栏-工具-插件市场")  
 ![Zotero顶部菜单栏-插件市场](./.img/1marketplugin.png "插件市场")
 
+# 2. Zotero插件介绍与配置
+接下来是前文所提到的插件的介绍与细致的使用方法。
 
-## 1.2. [蒲公英](https://github.com/l0o0/tara/releases/download/v1.0.7/tara.xpi)
+## 2.1. [蒲公英](https://github.com/l0o0/tara/releases/download/v1.0.7/tara.xpi)
 蒲公英插件是一款实现备份Zotero插件、CSL文件、转换器文件、Locate文件夹和Zotero配置的插件。
 
-### 1.2.1. 使用方法
-在导入完成蒲公英插件后，在Zotero的**顶部菜单栏-工具-蒲公英**可以对目前Zotero的插件、格式、转换器进行创建备份、导入导出备份与恢复备份。
+### 2.1.1. 使用方法
+在导入完成蒲公英插件后，在Zotero的**顶部菜单栏-工具-蒲公英**可以对目前Zotero的插件、格式、转换器进行创建备份、导入导出备份与恢复备份。  
 
-![Zotero蒲公英插件](./.img/1蒲公英.png "顶部菜单栏-工具-蒲公英")
+![Zotero蒲公英插件](./.img/1蒲公英.png "顶部菜单栏-工具-蒲公英")  
 
 在完成备份之后，备份文件会在**zotero/storage**文件夹内，并随着坚果云实现多端同步备份文件，在其他端找到备份文件进行导入即可实现多端同步插件、格式、转换器。
 
-## 1.3 
+## 2.14. [坚果云插件](https://github.com/nutstore/zotero-plugin-nutstore/releases/download/v2.0.2/nutstore.xpi)
+坚果云插件主要是为之前的WebDAV同步方法提供了更简单的操作，不过Linux端似乎并不能使用。
 
-## 1.3. [坚果云插件](https://github.com/nutstore/zotero-plugin-nutstore/releases/download/v2.0.2/nutstore.xpi)
-坚果云插件
+### 2.14.1. 使用方法
+打开坚果云左侧菜单里的**Zotero同步插件**，坚果云会自动下载安装插件；  
+![坚果云同步插件](./.img/1nut1.png "Zotero同步插件")  
+
+在下载完成后，在Zotero的**顶部菜单栏-edit-setting**里，选择坚果云插件，点击验证坚果云服务即可完成同步，基本无需后续操作，非常简单。  
+
+![坚果云同步插件2](./.img/1nut2.png "Zotero同步设置")
