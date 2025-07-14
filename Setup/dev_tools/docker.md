@@ -102,3 +102,17 @@ Docker的正常使用会放在后续使用Docker时介绍，如ROMS、AstrBot等
    ```
    gpg --generate-key
    ```
+   运行此命令后，GOG会需要输入姓名和电子邮件，这里的姓名与其说是自己的真名，毋宁是一个较高识别度的id。  
+   在确认了自己的姓名和邮箱后，GPG将会创建密钥对，里面会有一行包含GPG ID的代码，接下来便可复制GPG ID进行初始化
+   ```
+   pass init <your_generated_gpg-id_public_key>
+   ```
+   接下来会有类似以下的输出：
+   ```
+   mkdir: created directory '/home/cygni/.password-store/'
+   Password store initialized for <generated_gpg-id_public_key>
+   ```
+   在初始化完成之后，我们就可以在Docker Desktop上进行登录和绑定其他账号了。不过在登陆时，可能会弹出用户提示，需要我们在生成GPG密钥时候所设置的密码。
+
+2. 未完待续  
+   实际上docker在正式使用前还应该有一些事要做的可能会保险一些，不过考虑到我现在要用到的都是比较小的工况，为简单起见还是先不做那么多了。
