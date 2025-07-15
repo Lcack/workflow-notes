@@ -15,7 +15,7 @@ Zotero生态下有许多功能丰富的插件，本文主要介绍在Zotero7下�
 - [ ] [Green Frog](https://github.com/redleafnew/zotero-updateifsE/releases/download/v0.20.2/green-frog.xpi)
 - [ ] [Jasminum](https://github.com/l0o0/jasminum/releases/download/v1.1.17/jasminum_1.1.17.xpi)
 - [ ] [Linter for Zotero](https://github.com/northword/zotero-format-metadata/releases/download/v1.24.5/linter-for-zotero.xpi)
-- [ ] [Nutstore](https://github.com/nutstore/zotero-plugin-nutstore/releases/download/v2.0.2/nutstore.xpi)
+- [x] [Nutstore](https://github.com/nutstore/zotero-plugin-nutstore/releases/download/v2.0.2/nutstore.xpi)
 - [ ] [PDF Figure](https://github.com/MuiseDestiny/zotero-figure/releases/download/0.2.6/zotero-figure.xpi)
 - [ ] [Sci-PDF](https://github.com/syt2/zotero-scipdf/releases/download/V1.3.0/sci-pdf.xpi)
 - [ ] [Translate for Zotero](https://github.com/windingwind/zotero-pdf-translate/releases/download/v2.2.16/translate-for-zotero.xpi)
@@ -50,6 +50,10 @@ Zotero生态下有许多功能丰富的插件，本文主要介绍在Zotero7下�
 ![Zotero蒲公英插件](./.img/1蒲公英.png "顶部菜单栏-工具-蒲公英")  
 
 在完成备份之后，备份文件会在**zotero/storage**文件夹内，并随着坚果云实现多端同步备份文件，在其他端找到备份文件进行导入即可实现多端同步插件、格式、转换器。
+
+## 2.2. [Actions and Tags for Zotero](https://github.com/windingwind/zotero-actions-tags/releases/download/v2.1.1/)
+
+## 2.3. [Awesome GPT](https://gitee.com/MuiseDestiny/plugins/raw/master/zotero-gpt.xpi)
 
 ## 2.14. [坚果云插件](https://github.com/nutstore/zotero-plugin-nutstore/releases/download/v2.0.2/nutstore.xpi)
 坚果云插件主要是为之前的WebDAV同步方法提供了更简单的操作，不过Linux端似乎并不能使用。
