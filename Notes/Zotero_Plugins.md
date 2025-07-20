@@ -19,7 +19,7 @@ Zotero生态下有许多功能丰富的插件，本文主要介绍在Zotero7下�
 - [ ] [PDF Figure](https://github.com/MuiseDestiny/zotero-figure/releases/download/0.2.6/zotero-figure.xpi)
 - [ ] [Sci-PDF](https://github.com/syt2/zotero-scipdf/releases/download/V1.3.0/sci-pdf.xpi)
 - [ ] [Translate for Zotero](https://github.com/windingwind/zotero-pdf-translate/releases/download/v2.2.16/translate-for-zotero.xpi)
-- [ ] [Zotero 插件市场](https://github.com/syt2/zotero-addons/releases/download/V2.1.1/zotero-addons.xpi)
+- [x] [Zotero 插件市场](https://github.com/syt2/zotero-addons/releases/download/V2.1.1/zotero-addons.xpi)
 - [ ] [Zotero Attanger](https://github.com/MuiseDestiny/zotero-attanger/releases/download/1.3.5/zotero-attanger.xpi)
 - [ ] [Zotero Debug Bridge](https://github.com/retorquere/zotero-better-bibtex/releases/download/debug-bridge/debug-bridge-1.0.xpi)
 - [ ] [Zotero OCR](https://github.com/UB-Mannheim/zotero-ocr/releases/download/0.9.2/zotero-ocr-0.9.2.xpi)
@@ -55,6 +55,26 @@ Zotero生态下有许多功能丰富的插件，本文主要介绍在Zotero7下�
 
 ## 2.3. [Awesome GPT](https://gitee.com/MuiseDestiny/plugins/raw/master/zotero-gpt.xpi)
 
+## 2.4. [Better BibTex for Zotero](https://github.com/retorquere/zotero-better-bibtex/releases/download/v7.0.36/zotero-better-bibtex-7.0.36.xpi)
+
+## 2.5. [Better Notes for Zotero](https://github.com/windingwind/zotero-better-notes/releases/download/v2.5.1/better-notes-for-zotero.xpi)
+
+## 2.6. [DOI Manager](https://github.com/bwiernik/zotero-shortdoi/releases/download/v1.5.0/zotero-doi-manager-1.5.0.xpi)
+
+## 2.7. [Easier Citation](https://github.com/MuiseDestiny/zotero-citation/releases/download/0.5.0/zotero-citation.xpi)
+
+## 2.8. [Ethereal Reference](https://gitee.com/MuiseDestiny/plugins/raw/master/zotero-reference.xpi)
+
+## 2.9. [Ethereal Style](https://gitee.com/MuiseDestiny/plugins/raw/master/zotero-style.xpi) 
+
+## 2.10. [Google Scholar Citation Count](https://github.com/justinribeiro/zotero-google-scholar-citation-count/releases/download/v4.3.0/zotero-google-scholar-citation-count-4.3.0.xpi)
+
+## 2.11. [Green Frog](https://github.com/redleafnew/zotero-updateifsE/releases/download/v0.20.2/green-frog.xpi)
+
+## 2.12. [Jasminum](https://github.com/l0o0/jasminum/releases/download/v1.1.17/jasminum_1.1.17.xpi)
+
+## 2.13. [Linter for Zotero](https://github.com/northword/zotero-format-metadata/releases/download/v1.24.5/linter-for-zotero.xpi)
+
 ## 2.14. [坚果云插件](https://github.com/nutstore/zotero-plugin-nutstore/releases/download/v2.0.2/nutstore.xpi)
 坚果云插件主要是为之前的WebDAV同步方法提供了更简单的操作，不过Linux端似乎并不能使用。
 
@@ -65,3 +85,23 @@ Zotero生态下有许多功能丰富的插件，本文主要介绍在Zotero7下�
 在下载完成后，在Zotero的**顶部菜单栏-edit-setting**里，选择坚果云插件，点击验证坚果云服务即可完成同步，基本无需后续操作，非常简单。  
 
 ![坚果云同步插件2](./.img/1nut2.png "Zotero同步设置")
+
+## 2.15 [PDF Figure](https://github.com/MuiseDestiny/zotero-figure/releases/download/0.2.6/zotero-figure.xpi)
+
+## 2.16. [Sci-PDF](https://github.com/syt2/zotero-scipdf/releases/download/V1.3.0/sci-pdf.xpi)
+
+## 2.17. [Translate for Zotero](https://github.com/windingwind/zotero-pdf-translate/releases/download/v2.2.16/translate-for-zotero.xpi)
+
+## 2.18. [Zotero插件市场](https://github.com/syt2/zotero-addons/releases/download/V2.1.1/zotero-addons.xpi)
+插件市场这个插件主要作用索可以不用网页进行插件下载并且实现简易的插件管理。
+
+### 2.18.1. 使用方法
+参考前面**1.2.2 通过Zotero市场插件下载管理插件**这节进行使用。
+
+## 2.19. [Zotero Attanger](https://github.com/MuiseDestiny/zotero-attanger/releases/download/1.3.5/zotero-attanger.xpi)
+
+## 2.20. [Zotero Debug Bridge](https://github.com/retorquere/zotero-better-bibtex/releases/download/debug-bridge/debug-bridge-1.0.xpi)
+
+## 2.21. [Zotero OCR](https://github.com/UB-Mannheim/zotero-ocr/releases/download/0.9.2/zotero-ocr-0.9.2.xpi)
+
+## 2.22. [ZotMoov](https://github.com/wileyyugioh/zotmoov/releases/download/1.2.21/zotmoov-1.2.21-fx.xpi)
