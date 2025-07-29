@@ -52,5 +52,6 @@ else
     send_mail "$MAIL_SUBJECT_OK" "Ubuntu 已在 $TIMESTAMP 成功执行定时重启。\nCPU负载: $load\n任务数: $running_tasks\nGPU占用: $gpu_busy"
     /sbin/shutdown -r now
 fi
-```
+```  
+
 当然这个脚本只是临时用ai生成，主要还是先完成每周定时重启，并留下了一定的后续拓展空间。
