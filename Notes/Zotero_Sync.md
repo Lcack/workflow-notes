@@ -1,4 +1,4 @@
-# 1. Zotero同步设置
+# Zotero同步设置
 Zotero多端同步主要通过坚果云进行多端同步：Windows（含Mac）端可使用坚果云插件同步；Linux端与ios则需要通过WebDAV进行配置。
 
 ## 1.1. 同步背景
