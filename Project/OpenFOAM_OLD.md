@@ -46,7 +46,48 @@ source .bashrc
 因为考虑到后续可能需要耦合其他插件或软件（如waves2foam，不过这个太久没人维护比较久后面还是没有安装），我选择了com版本的OpenFOAM，**OpenFOAM v2206**，以下是我的安装过程：  
 * _ps：OpenFOAM因为历史原因分成了[org](https://openfoam.org/)和[com](https://www.openfoam.com/)两个版本，大致区分为。org版本格式是'OpenFOAM+版本号'，如OpenFOAM 12；com版本格式是'OpenFOAM+v年份月份'，如OpenFOAM v2206。_
 
-### 2.1 OpenFOAM下载
+### 2.1 OpenFOAM下载与编译准备
 由于集群处于不联网的状态，只能手动下载源码上传到集群后进行编译。  
 在OpenFOAM的[release-history页面](https://www.openfoam.com/download/release-history)可以找到OpenFOAM的com版本的历史源码包，在其中下载[OpenFOAM-v2206](https://sourceforge.net/projects/openfoam/files/v2206/OpenFOAM-v2206.tgz/download)和[ThridParty-v2206](https://sourceforge.net/projects/openfoam/files/v2206/ThirdParty-v2206.tgz/download)的源码包。  
-下载完成之后，我们得到
+下载完成之后，将得到的*OpenFOAM-v2206.tgz*与*ThirdParty-v2206.tgz*上传至集群，我通过WinSCP上传至集群，也可以通过SCP指令上传。
+```
+# 进入主目录
+cd ~
+# 进入安装目录，上传的文件保存在这里
+cd app
+# 解压安装包
+tar -xvf OpenFOAM-v2206.tgz
+tar -xvf ThirdParty-v2206.tgz
+# 设置环境变量
+cd ~
+vim .bashrc
+# 在.bashrc最后一行添加OpenFOAM环境变量路径
+source $HOME/app/OpenFOAM-v2206/etc/bashrc
+# :wq保存退出后更新环境变量
+source .bashrc
+# 测试是否成功添加环境变量,若已成功添加环境变量，应返回/public/home/cygni/app/OpenFOAM-v2206/etc
+echo $WM_PROJECT_DIR
+
+# 特别的，在有多个openfoam环境时可以通过alias切换环境，如
+alias of2206='source $HOME/app/OpenFOAM-v2206/etc/bashrc
+```
+
+### 2.2 OpenFOAM编译
+```
+# 首先编译ThirdParty
+cd ~
+cd app/ThirdParty-v2206
+# 清理构建，不过因为还没编译所以基本没什么清理的
+./Allclean -full
+# 采用后台编译并将编译过程写入log.Allwmake
+nohup ./Allwmake > log.Allwmake 2>&1 &
+# 可以用jobs命令看后台任务
+jobs-l
+# 可以用tail实时输出编译信息
+tail -f log.Allwmake
+
+# 接下来进行OpenFOAM的编译
+cd ..
+cd OpenFOAM-v2206
+nohup ./Allwmake > log.Allwmake 2>&1 &
+```
