@@ -91,3 +91,12 @@ cd ..
 cd OpenFOAM-v2206
 nohup ./Allwmake > log.Allwmake 2>&1 &
 ```
+
+## 3.Ubuntu电脑上的OpenFOAM编译
+除了以上设置外，我的Ubuntu24.04电脑还进行了补充依赖的操作，不然会有很多依赖缺失。
+```
+sudo apt update
+sudo apt install build-essential cmake flex bison zlib1g-dev \
+     libopenmpi-dev openmpi-bin libscotch-dev libptscotch-dev \
+     libreadline-dev libncurses-dev libxt-dev
+```
