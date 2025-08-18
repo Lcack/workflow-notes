@@ -100,3 +100,26 @@ sudo apt install build-essential cmake flex bison zlib1g-dev \
      libopenmpi-dev openmpi-bin libscotch-dev libptscotch-dev \
      libreadline-dev libncurses-dev libxt-dev
 ```
+但是编译完成后还是存在一些问题：  
+ * Qt5Widgets / Qt5Gui 没找到  
+  怀疑是anaconda的qt6干扰了
+  ```
+    CMake Error ... Found package configuration file:
+    /home/cygni/anaconda3/lib/cmake/Qt6/Qt6Config.cmake
+    but it set Qt6_FOUND to FALSE
+    Reason: Failed to find required Qt component "Widgets"
+    CMake Error ... Found package configuration file:
+    /home/cygni/anaconda3/lib/cmake/Qt6/Qt6Config.cmake
+    but it set Qt6_FOUND to FALSE
+    Reason: Failed to find required Qt component "Widgets"
+ ```  
+ * OpenGL 没找到  
+   需要下载opengl包
+ ```
+    Could NOT find OpenGL (missing: OPENGL_opengl_LIBRARY OPENGL_glx_LIBRARY OPENGL_INCLUDE_DIR)
+ ```
+  * ParaView 插件 blockMeshReader 构建不完整
+ ```
+ WARNING: incomplete build of ParaView plugin: blockMeshReader
+ ```
+ 
